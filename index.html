@@ -1,0 +1,164 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Tech Innovators Workshop 2026</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+</head> 
+<body> 
+ 
+    <!-- ================= HEADER SECTION ================= --> 
+    <header id="home"> 
+        <h1>Tech Innovators Workshop 2026</h1> 
+        <p> 
+            Join us for an exciting workshop focused on emerging technologies,  
+            innovation, and practical skill development for students and professionals. 
+        </p> 
+        
+    </header> 
+     <link rel="stylesheet" href="style.css">
+
+    <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#event-info">Event Info</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#participants">Participants</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+ 
+ 
+    <!-- ================= EVENT INFORMATION ================= --> 
+    <section id="event-info"> 
+        <h2>Event Information</h2> 
+        <table border="1" cellpadding="8"> 
+            <tr> 
+                <th>Event Date</th> 
+                <td>March 15, 2026</td> 
+            </tr> 
+            <tr> 
+                <th>Time</th> 
+                <td>10:00 AM – 4:00 PM</td> 
+            </tr> 
+            <tr> 
+                <th>Venue</th> 
+                <td>ABC Engineering College Auditorium</td> 
+            </tr> 
+            <tr> 
+                <th>Organizer</th> 
+                <td>Department of Computer Science</td> 
+            </tr> 
+        </table> 
+    </section> 
+ 
+    <!-- ================= REGISTRATION FORM ================= --> 
+    <section id="register"> 
+        <h2>Event Registration Form</h2> 
+ 
+        <form action="#" method="post"> 
+ 
+            <!-- ===== Personal Information ===== --> 
+            <fieldset> 
+                <legend>Personal Information</legend> 
+ 
+                <label>Full Name:</label><br> 
+                <input type="text" name="fullname" required><br><br> 
+ 
+                <label>Email Address:</label><br> 
+                <input type="email" name="email" required><br><br> 
+ 
+                <label>Phone Number:</label><br> 
+                <input type="tel" name="phone" required><br><br> 
+ 
+                <label>Date of Birth:</label><br> 
+                <input type="date" name="dob"><br><br> 
+ 
+                <label>Gender:</label><br> 
+                <input type="radio" name="gender" value="Male"> Male 
+                <input type="radio" name="gender" value="Female"> Female 
+                <input type="radio" name="gender" value="Other"> Other 
+            </fieldset> 
+ 
+            <br> 
+ 
+            <!-- ===== Event Selection ===== --> 
+            <fieldset> 
+                <legend>Event Selection</legend> 
+ 
+                <label>Select Event:</label><br> 
+                <select name="event"> 
+                    <option value="">-- Select Event --</option> 
+                    <option value="AI Workshop">AI Workshop</option> 
+                    <option value="Web Development Seminar">Web Development Seminar</option> 
+                    <option value="Cybersecurity Session">Cybersecurity Session</option> 
+                </select><br><br> 
+ 
+                <label>Mode of Participation:</label><br> 
+                <input type="radio" name="mode" value="Online"> Online 
+                <input type="radio" name="mode" value="Offline"> Offline 
+            </fieldset> 
+ 
+            <br> 
+ 
+            <!-- ===== Additional Details ===== --> 
+            <fieldset> 
+                <legend>Additional Details</legend> 
+ 
+                <label>College / Company Name:</label><br> 
+                <input type="text" name="organization"><br><br> 
+ 
+                <label>Upload ID Proof:</label><br> 
+                <input type="file" name="idproof"><br><br> 
+ 
+                <label>Comments / Expectations:</label><br> 
+                <textarea name="comments" rows="4" cols="40"></textarea> 
+            </fieldset> 
+ 
+            <br> 
+ 
+            <!-- ===== Declaration ===== --> 
+            <input type="checkbox" name="declaration" required> 
+            I confirm that the above details are correct. 
+ 
+            <br><br> 
+ 
+            <!-- ===== Form Controls ===== --> 
+            <input type="submit" value="Submit"> 
+            <input type="reset" value="Reset"> 
+ 
+        </form> 
+    </section> 
+ 
+    <!-- ================= REGISTERED PARTICIPANTS (STATIC) ================= --> 
+    <section id="participants"> 
+        <h2>Registered Participants</h2> 
+        <table border="1" cellpadding="8"> 
+            <tr> 
+                <th>Name</th> 
+                <th>Email</th> 
+                <th>Phone</th> 
+                <th>Event</th> 
+                <th>Mode</th> 
+            </tr> 
+            <tr> 
+                <td>Arun Kumar</td> 
+                <td>arun@email.com</td> 
+                <td>9876543210</td> 
+                <td>AI Workshop</td> 
+                <td>Offline</td> 
+            </tr> 
+        </table> 
+    </section> 
+ 
+    <!-- ================= FOOTER SECTION ================= --> 
+    <footer id="contact"> 
+        <p>Contact Email: support@techinnovators.com</p> 
+        <p>Help Desk: +91 98765 43210</p> 
+        <p>&copy; 2026 Tech Innovators Workshop. All Rights Reserved.</p> 
+    </footer> 
+    <script src="script.js"></script>
+ 
+</body> 
+</html> 
